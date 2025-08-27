@@ -1,1 +1,36 @@
-DISEASE PREDICTOR
+🫀 Heart Disease Prediction
+
+Machine Learning project to predict the likelihood of heart disease using patient health records.
+
+📊 Dataset
+Source: Kaggle – Heart Disease Data
+Includes features like age, sex, chest pain type, blood pressure, cholesterol, ECG results, max heart rate, angina, thalassemia, etc.
+
+
+⚙️ Workflow
+1. Data preprocessing (missing values, encoding, scaling)
+
+2. Exploratory analysis (distributions, correlations)
+
+3. Model training & evaluation
+Logistic Regression → 84.2% accuracy
+Random Forest → 88.6% accuracy ✅
+
+4. Save trained model + scaler (.pkl) and provide template CSV for user inputs
+📈 Results
+Random Forest performed best with ~88.6% accuracy
+Key predictors: age, cholesterol, chest pain type, thalassemia, exercise-induced angina
+
+
+🛠️ Tech Stack
+Python (Colab)
+Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Joblib
+
+🚀 Usage
+1. Upload kaggle.json in Colab to fetch dataset
+2. Run notebook to train & save models
+3. Use heart_user_template.csv for input
+4. Upload your dataset → get predictions (0 = No Disease, 1 = Disease)
+
+
+Author-Akankhya Dash
